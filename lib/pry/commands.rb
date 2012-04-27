@@ -8,6 +8,7 @@ require "pry/default_commands/introspection"
 require "pry/default_commands/editing"
 require "pry/default_commands/navigating_pry"
 require "pry/default_commands/easter_eggs"
+require "pry/default_commands/tutorial"
 
 require "pry/extended_commands/experimental"
 
@@ -25,5 +26,6 @@ class Pry
     import DefaultCommands::Introspection
     import DefaultCommands::EasterEggs
     import DefaultCommands::Commands
+    import DefaultCommands::Tutorial
   end
 end
